@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/login-bg.jpeg);
+}
+
+.login-top{
+    width: 100%;
+    height: 70px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+   
+
+}
+.login-top img{
+    width: 150px;
+    height:55px
+}
+
+.container{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.login-box{
+    width: 430px;
+    height: 500px;
+    background-color: #040000e6;
+    border-radius: 5px;
+   
+}
+.header{    
+    color: white;
+    margin-top: 35px;
+    margin-left: 40px;
+}
+.label-box{
+    background-color: white;
+    width: 80%;
+    margin-left: 41px;
+    border-radius: 5px;
+}
+.control-label{
+        font-size: 17px;
+        margin-left: 17px
+}
+.form-control{
+    box-shadow: none;
+}
+.btn{
+    width:80%;
+    margin-left: 40px;
+}
+.checkbx{
+    margin-top: 12px;
+    margin-left: 42px;
+    color: white;
+}
+.help-section{
+        display: flex;
+        margin-left: 73%;
+        margin-top: -8%;
+        color: white;
+}
+.fb-img{
+    display: flex;
+    margin-left: 40px;
+}
+.fb-img img{
+    border-radius: 5px;
+}
+.fb-img p{
+color:white;
+}
