@@ -169,22 +169,11 @@ i:hover{
     border:none !important;
 }
 .card:hover{
-    transform:scale(1.4);
+    transform:scaleX(1.4) scaleY(1.4);
     z-index:10;
     margin-left: 30px;
 }
-.netflix-card-text {
-    font-size: 12px;
-}
-.card-icon{
-    color:#fff;
-    padding:0px !important;
-    font-size:22px;
-    border-radius: 50%;
-    cursor: pointer;
-    margin: 3px;
 
-}
 .card-body{
     display: none;
     background-color: #141414 !important;
@@ -197,11 +186,32 @@ i:hover{
 
 .card:hover .card-body{
     display: block;
-    background-color: #141414;
-    overflow: visible !important;
-    z-index: 600;
     
 }
+
+
+.card-icon {
+    color: #fff;
+    padding: 0px !important;
+    font-size: 22px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 3px;
+
+}
+.tab-change-button{
+    border: none;
+    width: 30px !important;
+}
+
+.margin-right{
+    margin-right: 100px;
+}
+.netflix-card-text {
+    font-size: 12px;
+}
+
+
 #footer{
     margin-top: 550px;
 }
